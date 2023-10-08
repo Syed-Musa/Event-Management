@@ -2,7 +2,8 @@ import { useLoaderData } from "react-router-dom";
 import Events from "../../EventsCard/Events";
 import Banner from "../Banner/Banner";
 import Navbar from "../Navbar/Navbar";
-import RigthSideNav from "../RightSideNav/RigthSideNav";
+import AboutUs from "../../About/AboutUs";
+import Footer from "../Footer/Footer";
 
 const Homepage = () => {
 
@@ -12,10 +13,11 @@ const Homepage = () => {
         <div>
             <Navbar></Navbar>
             <Banner></Banner>
-            <div className="flex-wrap-reverse lg:flex justify-between">
+            
             <Events events={events}></Events>
-            <RigthSideNav></RigthSideNav>
-            </div>
+            
+            <AboutUs></AboutUs>
+            <Footer></Footer>
         </div>
     );
 };

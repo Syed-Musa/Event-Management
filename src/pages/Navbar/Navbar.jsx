@@ -1,15 +1,24 @@
-import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../Providers/AuthProvider";
 
 const Navbar = () => {
+    const{user, logOut} = useContext(AuthContext);
+
+    const handleSignOut = () =>{
+      logOut()
+      .then()
+      .catch()
+    }
 
     const navLinks = <>
         <li className="text-xl font-semibold"><NavLink to="/">Home</NavLink></li>
-        <li className="text-xl font-semibold"><NavLink to="/about">About</NavLink></li>
         <li className="text-xl font-semibold"><NavLink to="/login">Login</NavLink></li>
+        <li className="text-xl font-semibold"><NavLink to="/register">Register</NavLink></li>
     </>
 
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-blue-100 mt-4">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -27,7 +36,18 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <label tabIndex={0} className="btn btn-ghost btn-circle">
+            <div className="w-4 rounded-full">
+              <img className="" src="https://i.ibb.co/qpkzjts/musa-removebg-preview-1.png" />
+            </div>
+          </label>
+          {
+            user ? 
+            <button onClick={handleSignOut} className="btn text-white bg-gradient-to-r from-yellow-500 to-orange-500">Sign Out</button>
+            :
+            <Link to="/login"><button className="btn text-white bg-gradient-to-r from-yellow-500 to-orange-500">Login</button></Link>
+          }
+          
         </div>
       </div>
   );

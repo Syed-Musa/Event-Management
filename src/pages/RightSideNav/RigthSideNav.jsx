@@ -3,12 +3,12 @@ import { FaGithub, FaGoogle } from 'react-icons/fa';
 const RigthSideNav = () => {
     return (
         <div>
-            <h2 className='text-3xl font-bold my-5'>Login With</h2>
+            <h2 className='text-2xl font-bold my-5 text-center'>Continue With</h2>
             <button className='btn btn-outline w-full text-[15px] font-bold my-2'>
-                <FaGoogle className='text-xl'></FaGoogle>Google Login
+                <FaGoogle className='text-xl text-white'></FaGoogle>Google Login
             </button>
             <button className='btn btn-outline w-full text-[15px] font-bold'>
-                <FaGithub className='text-xl'></FaGithub>Github Login
+                <FaGithub className='text-xl to-white'></FaGithub>Github Login
             </button>
         </div>
     );
