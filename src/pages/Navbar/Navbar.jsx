@@ -37,8 +37,8 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <label tabIndex={0} className="btn btn-ghost btn-circle">
-            <div className="w-4 rounded-full">
-              <img className="" src="https://i.ibb.co/qpkzjts/musa-removebg-preview-1.png" />
+            <div className="">
+              <img className="w-10 rounded-full" src="/public/musaSM.jpg" />
             </div>
           </label>
           {

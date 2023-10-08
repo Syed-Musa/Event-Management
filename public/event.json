@@ -1,50 +1,45 @@
 [
     {
-        "Id": 1,
+        "id": 1,
         "Image": "https://i.ibb.co/1rm2JqT/dentists-treat-patients-teeth.jpg",
         "Title": "Dental Checkup",
-        "Details": "Professional teeth cleaning, oral examination, and X-rays (if necessary)",
-        "Description": "Comprehensive dental examination including cleaning, X-rays, and consultation with a dentist. Many people underestimate the importance of regular dental checkups. They might think that as long as they brush and floss daily, their oral health is guaranteed. While home care is crucial, it's only part of the equation. Dental checkups, typically recommended every six months, provide numerous benefits that can't be achieved through home care alone.",
+        "Description": "Professional teeth cleaning, oral examination, and X-rays (if necessary) Comprehensive dental examination including cleaning, X-rays, and consultation with a dentist. Many people underestimate the importance of regular dental checkups. They might think that as long as they brush and floss daily, their oral health is guaranteed. While home care is crucial, it's only part of the equation. Dental checkups, typically recommended every six months, provide numerous benefits that can't be achieved through home care alone.",
         "Price": 120.00
     },
     {
-        "Id": 2,
+        "id": 2,
         "Image": "https://i.ibb.co/88v2N1f/young-man-exercising-outdoors-park.jpg",
         "Title": "Physical Fitness Assessment",
-        "Details": "Assessment of your physical fitness level, including body measurements and customized exercise recommendations.",
         "Description": "Assessment of your physical fitness level, including body measurements and customized exercise recommendations. In a world where the pace of life is constantly accelerating, it's easy to overlook the importance of regular physical fitness assessment. Many of us are consumed by daily responsibilities, leaving little time to focus on our health and fitness. However, understanding where you stand in terms of physical fitness is a crucial step towards achieving your health goals and leading a vibrant, active life. ",
         "Price": 75.00
     },
     {
-        "Id": 3,
+        "id": 3,
         "Image": "https://i.ibb.co/F05KwDb/close-up-kid-getting-vaccine.jpg",
         "Title": " Child Vaccination Package",
-        "Details": "A package of vaccinations and immunizations for children to protect against common childhood illnesses.",
-        "Description": "A package of vaccinations and immunizations for children to protect against common childhood illnesses. The health and well-being of our children are among our most cherished priorities. One of the fundamental ways we safeguard their future is through timely and comprehensive vaccinations. Child vaccination packages play a critical role in ensuring that children receive the essential immunizations they need to stay healthy, prevent diseases, and thrive. ",
+        "Details": "",
+        "Description": "A package of vaccinations and immunizations for children to protect against common childhood illnesses. The health and well-being of our children are among our most cherished priorities. Then the package of vaccinations and immunizations for children to protect against common childhood illnesses. One of the fundamental ways we safeguard their future is through timely and comprehensive vaccinations. Child vaccination packages play a critical role in ensuring that children receive the essential immunizations they need to stay healthy, prevent diseases, and thrive. ",
         "Price": 90.00
     },
     {
-        "Id": 4,
+        "id": 4,
         "Image": "https://i.ibb.co/ySVpBDh/man-practicing-mindfulness-yoga-mat-cozy-living-room.jpg",
         "Title": "Yoga and Meditation Class",
-        "Details": "Weekly group sessions focused on yoga and meditation for relaxation and stress reduction.",
-        "Description": "Weekly group sessions focused on yoga and meditation for relaxation and stress reduction. Yoga and meditation are ancient practices that have been revered for their holistic approach to well-being. Yoga involves a series of physical postures, breath control, and meditation techniques that enhance flexibility, strength, and mental clarity. Meditation, on the other hand, is a mental discipline that focuses on mindfulness, relaxation, and self-awareness. Together, they form a powerful combination for overall wellness.",
+        "Description": "Weekly group sessions focused on yoga and meditation for relaxation and stress reduction. Yoga and meditation are ancient practices that have been revered for their holistic approach to well-being. Its walk in early in the morning Weekly group sessions focused on yoga and meditation for relaxation and stress reduction. Yoga involves a series of physical postures, breath control, and meditation techniques that enhance flexibility, strength, and mental clarity. Meditation, on the other hand, is a mental discipline that focuses on mindfulness, relaxation, and self-awareness. Together, they form a powerful combination for overall wellness.",
         "Price": 20.00 
     },
     {
-        "Id": 5,
+        "id": 5,
         "Image": "https://i.ibb.co/BBXK0Jk/bearded-sick-man-with-flue-sitting-sofa-home-covered-with-warm-blanket-with-pills-illness-influenza.jpg",
         "Title": "Allergy Testing",
-        "Details": "Testing for common allergens to identify and manage allergies.",
-        "Description": "Testing for common allergens to identify and manage allergies. Allergies are more common than ever before, affecting millions of people worldwide. From seasonal allergies to food sensitivities, these immune system responses can range from mildly inconvenient to life-threatening. Fortunately, modern medicine offers a powerful tool for identifying allergens and managing allergic reactions: allergy testing.",
+        "Description": "Testing for common allergens to identify and manage allergies. Allergies are more common than ever before, affecting millions of people worldwide. From seasonal allergies to food sensitivities, these immune system responses can range from mildly inconvenient to life-threatening. Besides the Testing for common allergens to identify and manage allergies. Fortunately, modern medicine offers a powerful tool for identifying allergens and managing allergic reactions: allergy testing.",
         "Price": 200.00
     },
     {
-        "Id": 6,
+        "id": 6,
         "Image": "https://i.ibb.co/8K5tP4M/positive-cheerful-european-male-pensioner-t-shirt-shorts-sneakers-having-warm-up-routine-outdoors-st.jpg",
         "Title": "Senior Wellness Check",
-        "Details": "A specialized health checkup for senior citizens, including geriatric assessments and advice on maintaining a healthy lifestyle in later years.",
-        "Description": "Aging is a natural part of life, and with it comes a unique set of health considerations. As we grow older, it becomes increasingly important to prioritize our well-being and proactively address age-related health concerns. Senior wellness checks provide a structured approach to maintaining good health and enjoying a fulfilling life in the golden years. Senior wellness checks, also known as geriatric assessments or senior health evaluations, are comprehensive health examinations tailored specifically to the needs of older adults. These assessments go beyond routine medical visits, addressing age-related issues and considering the whole person, including their physical, emotional, and social well-being.",
+        "Description": "A specialized health checkup for senior citizens, including geriatric assessments and advice on maintaining a healthy lifestyle in later years. Aging is a natural part of life, and with it comes a unique set of health considerations. As we grow older, it becomes increasingly important to prioritize our well-being and proactively address age-related health concerns. Senior wellness checks provide a structured approach to maintaining good health and enjoying a fulfilling life in the golden years. Senior wellness checks, also known as geriatric assessments or senior health evaluations, are comprehensive health examinations tailored specifically to the needs of older adults. These assessments go beyond routine medical visits, addressing age-related issues and considering the whole person, including their physical, emotional, and social well-being.",
         "Price": 65.00
     }   
 ]

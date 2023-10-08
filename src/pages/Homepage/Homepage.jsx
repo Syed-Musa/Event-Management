@@ -4,6 +4,7 @@ import Banner from "../Banner/Banner";
 import Navbar from "../Navbar/Navbar";
 import AboutUs from "../../About/AboutUs";
 import Footer from "../Footer/Footer";
+import OurGalleries from "../Galleries/OurGalleries";
 
 const Homepage = () => {
 
@@ -17,6 +18,7 @@ const Homepage = () => {
             <Events events={events}></Events>
             
             <AboutUs></AboutUs>
+            <OurGalleries></OurGalleries>
             <Footer></Footer>
         </div>
     );

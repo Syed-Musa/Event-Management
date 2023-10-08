@@ -3,13 +3,16 @@ const AboutUs = () => {
     return (
         <div>
             
-            <h2 className="text-4xl font-bold">About us</h2>
+            <h2 className="text-4xl font-bold text-center">About us</h2>
             <div>
-                <div>
-                    
-                </div>
-                <div>
-                    <h2 className="text-5xl font-bold my-20">We combine expertise, <br /> technology, safety, <br /> and patient care.</h2>
+                <div className="bg-[url('/public/Doctor.jpg')] bg-cover h-[200px] lg:h-[600px]">
+                    <h2 className="hero-overlay opacity-65 text-5xl font-bold pl-5 my-20 py-40 text-green-300">We combine expertise, <br /> technology, safety, <br /> and patient care.
+                    <p className="text-2xl pt-6 text-blue-400">Dr. Garrey Hells</p>
+                    <p className="text-[20px] text-white">Bachelor of Science in Biology, University of California, <br /> Los Angeles (UCLA), 2007
+                    Doctor of Medicine, University of California, San Francisco (UCSF), <br /> 2011
+                    Ophthalmology Residency, Jules Stein Eye Institute, UCLA, 2015
+                    Dr. <br /> Garrey Hells Cruvant is a board-certified ophthalmologist with <br /> over 30 years of  experience in the field. He received his medical degree <br /> from Harvard Medical School and <br />  completed her ophthalmology residency at the Massachusetts Eye and Ear Infirmary. <br /> Dr.  Cruvant then pursued a fellowship in cornea <br /> and refractive surgery at the Wilmer Eye Institute at Johns Hopkins University.
+                    </p></h2>
                 </div>
             </div>
         </div>
