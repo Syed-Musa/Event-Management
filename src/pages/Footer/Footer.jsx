@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="footer p-10 bg-blue-100 my-6 text-base-content">
-      <h2 className="text-5xl font-bold my-5">HealthCare</h2>
+      <h2 className="text-2xl lg:text-5xl font-bold my-5">HealthCare</h2>
       <nav>
         <header className="footer-title text-2xl">Services</header>
         <a className="link link-hover text-xl font-bold">Primary Care Services</a>

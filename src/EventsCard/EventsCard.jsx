@@ -7,9 +7,9 @@ const EventsCard = ({events}) => {
     console.log(events);
 
     return (
-    <div className="card w-96 bg-blue-100 shadow-xl">
+    <div className="card lg:w-96 bg-blue-100 shadow-xl">
       <figure>
-        <img src={Image} alt="Shoes"/>
+        <img className="h-64" src={Image} alt="Shoes"/>
       </figure>
       <div className="card-body">
         <h2 className="card-title text-xl font-bold">{Title}</h2>
@@ -19,9 +19,7 @@ const EventsCard = ({events}) => {
           </p> :
           <p>{Description}</p>
         }
-        <div className="card-actions justify-end">
-          <button className="btn btn-secondary font-bold w-full">Show Details</button>
-        </div>
+        
       </div>
     </div>
   );
