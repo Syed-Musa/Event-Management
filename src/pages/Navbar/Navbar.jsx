@@ -33,7 +33,7 @@ const Navbar = () => {
                   {navLinks}
                 </ul>
               </div>
-              <a className=" normal-case text-[14px] lg:text-2xl font-bold">HealthCare</a>
+              <a className=" text-[14px] lg:text-2xl text-orange-400 font-bold uppercase">HealthCare</a>
             </div>
             <div className="navbar-center hidden lg:flex">
               <ul className="menu menu-horizontal px-1">
@@ -41,14 +41,11 @@ const Navbar = () => {
               </ul>
             </div>
             <div className="navbar-end">
-              <label tabIndex={0} className="btn btn-ghost btn-circle">
-                <div className="">
-                  <img className="w-4 lg:w-10 rounded-full" src="/public/musaSM.jpg" />
-                </div>
-              </label>
+              
               {
                 user ? <>
-                <span>{user.email}</span>
+                <span className="font-bold">{user.email}</span>
+                <img className="w-4 lg:w-10 rounded-full" src= {user.photoURL} />
                 <button onClick={handleSignOut} className="btn text-white bg-gradient-to-r from-yellow-500 to-orange-500">Sign Out</button>
                 </>
                 :

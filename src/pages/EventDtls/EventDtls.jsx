@@ -9,7 +9,7 @@ const EventDtls = () => {
     const [data, setData] = useState(null);
 
     useEffect(()=>{
-        fetch('/public/event.json')
+        fetch('/event.json')
         .then(res => res.json())
         .then(data => setData(data))
     }, [])
