@@ -11,15 +11,15 @@ const Homepage = () => {
     const events = useLoaderData();
 
     return (
-        <div className=" p-5 max-w-7xl mx-auto">
+        <div className=" max-w-7xl mx-auto">
             <Navbar></Navbar>
             <Banner></Banner>
             
-            <Events events={events}></Events>
+            <Events  events={events}></Events>
             
             <AboutUs></AboutUs>
-            <OurGalleries></OurGalleries>
-            <Footer></Footer>
+            <OurGalleries ></OurGalleries>
+            <Footer ></Footer>
         </div>
     );
 };

@@ -7,7 +7,8 @@ const EventsCard = ({events}) => {
     console.log(events);
 
     return (
-    <div className="card lg:w-96 bg-blue-100 shadow-xl">
+    <div className=" mx-auto p-5 px-5">
+      <div className="card lg:w-96 bg-blue-100 shadow-xl" data-aos="fade-up" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
       <figure>
         <img className="h-64" src={Image} alt="Shoes"/>
       </figure>
@@ -21,6 +22,7 @@ const EventsCard = ({events}) => {
         }
         
       </div>
+    </div>
     </div>
   );
 };
